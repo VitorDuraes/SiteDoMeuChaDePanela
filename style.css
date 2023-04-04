@@ -65,18 +65,4 @@ footer {
     text-align: center;
 }
 
-.link-convidados {
-	position: absolute;
-	top: 10px;
-	right: 10px;
-}
-
-.link-convidados a {
-	color: #fff;
-	background-color: #ce1616;
-	padding: 10px;
-	text-decoration: none;
-	border-radius: 5px;
-}
-
 
