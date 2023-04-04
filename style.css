@@ -1,0 +1,82 @@
+/* Estilos Globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://img.freepik.com/vetores-gratis/papel-de-parede-floral-desenhado-a-mao_52683-67169.jpg?w=2000');
+    background-repeat: repeat;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.convite {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    background-color: #f44336;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #d32f2f;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.link-convidados {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.link-convidados a {
+	color: #fff;
+	background-color: #ce1616;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+
